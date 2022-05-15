@@ -31,9 +31,11 @@ void  RDA_isr(void) // reception et decoupe des donnees
 void test_diodes(int val_max, int val_min, int true_val, int ech_aff){
    if((true_val > val_max) || (true_val < val_min)){
       
+      printf("ALARM_IN %d",true_val);
       output_toggle(PIN_E1);
    }
    else{
+      printf("ALARM_OUT %d",true_val);
       output_high(PIN_E0);
    }
 }
