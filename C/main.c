@@ -1,5 +1,6 @@
 #include <main.h>
 #include <stdio.h>
+#use rs232(baud=9600, xmit=PIN_C6, rcv=PIN_C7, ERRORS)
 
 #INT_RTCC
 void  RTCC_isr(void) 
@@ -97,13 +98,13 @@ void main()
    while(TRUE)
    {
 	  
-	  if(flag_suivant){ // tranforme les donnee en int et reconstruit le nombre 
-		 int16 num1 = data[1] - 48;
+      if(flag_suivant){ // tranforme les donnee en int et reconstruit le nombre 
+	 int16 num1 = data[1] - 48;
          int16 num2 = data[2] - 48;
          int16 num3 = data[3] - 48;
          val_max = (int16)((num1*100)+(num2*10)+num3);
          flag_suivant = 0;
-	  }
+      }
       
       output_high(PIN_C0);
       delay_us(300); 
