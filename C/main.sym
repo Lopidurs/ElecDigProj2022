@@ -1,0 +1,118 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     MAIN.ech_aff
+01A-01B MAIN.duration
+01C-01D MAIN.val_mesuree
+01E     MAIN.val_max
+01F     MAIN.val_min
+020-021 @DIV1616.P1
+020     afficheurs.true_val
+020     test_diodes.val_max
+020     MAIN.@SCRATCH1
+021     @delay_us1.P1
+021     afficheurs.ech_aff
+021     test_diodes.val_min
+022     afficheurs.val_point
+022     test_diodes.true_val
+022-023 @DIV1616.P1
+023     test_diodes.ech_aff
+023     afficheurs.val_affich
+024     @delay_ms1.P1
+024     afficheurs.@SCRATCH1
+024     @DIV1616.@SCRATCH1
+025     @DIV88.P1
+026     @DIV88.P1
+027     @DIV88.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0000BA  RTCC_isr
+0000C0  RDA_isr
+0000C6  @delay_us1
+0000E2  @DIV1616
+000126  @DIV88
+00014E  @delay_ms1
+000176  afficheurs
+0001FE  test_diodes
+000218  MAIN
+000218  @cinit1
+00022A  @cinit2
+
+Project Directory:
+    C:\Users\Jarod\Documents\test2\
+
+Project Files:
+    main.c                                                  [15-5-22 21:14  CRC=75D47FD9]
+    main.h                                                  [15-5-22 20:54  CRC=00000000]
+    ..\..\..\..\Program Files (x86)\PICCDEMO\Devices\18F448.h [27-4-22 08:11  CRC=9BE10EDB]
+
+Source signature=AD969D8F
+Program memory checksum=0000
+Hex file CRC=63A9
+
+Units:
+    C:\Users\Jarod\Documents\test2\main (main)
+
+Compiler Settings:
+    Processor:      PIC18F448
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Compiler operating in Evaluation Mode
+To obtain a fully enabled compiler visit www.ccsinfo.com/products
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

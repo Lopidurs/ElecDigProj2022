@@ -1,0 +1,55 @@
+
+ROM used:   708/16384 (4%)
+            708/16384 (4%) including unused fragments
+
+            0.7 Average locations per line
+            13.9 Average locations per statement
+
+RAM used:   33/768 (4%) at main() level
+            40/768 (5%) worst case
+
+Stack used: 1 worst case (0 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  118    51 100  main.c
+    8     0   0  main.h
+  819     0   0  ..\..\..\..\Program Files (x86)\PICCDEMO\Devices\18F448.h
+----- -----
+  945    51 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   3    1             @delay_ms1
+0     28   2    1             @delay_us1
+0      6   0    0      5  1.0  RTCC_isr
+0      6   0    0      5  1.0  RDA_isr
+0     26   2    4    160  4.8  test_diodes
+0    136  10    5    603  6.6  afficheurs
+0     40   3    3    762  5.8  @DIV88
+0    176  12    8    762  5.8  MAIN
+0     68   5    5             @DIV1616
+ Inline         0    762  5.8  @cinit1
+
+Program metrics:
+    Functions               7
+    Statements              51
+    Comments                166
+    Volume (V)              4267
+    Difficulty (D)          30.5
+    Effort to implement (E) 130264
+    Time to implement (T)   2 hours, 1 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   7
+    Maintainability (MI)    153
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000B8   178  0  
+000BA-03FFE   526  15672  
+
+
+

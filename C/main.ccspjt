@@ -1,0 +1,49 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC18F448
+CCSVerions=5.108dP-0427
+Compiler=PCH
+CCSVersion=5.108Pd
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[C:\Users\Jarod\Documents\test2\main]
+Type=4
+[mru-list]
+1=main.c
+
+[ProjectLog]
+Days=1
+D1=15-05-2022
+D1_L=10
+D1_L1=[75295]Stopped Editing.
+TotalEdit=10
+TotalDebug=0
+D1_E=10
+D1_D=0
+D1_L2=[75302]Project Closed.
+D1_L3=[75302]Project Opened.
+D1_L4=[75358]Started Editing.
+D1_L5=[75742]Stopped Editing.
+D1_L6=[75928]Started Editing.
+D1_L7=[76216]Stopped Editing.
+D1_L8=[76216]Project Closed.
+D1_L9=[76276]Project Opened.
+D1_L10=[76309]Started Editing.
+
+[Opened Files]
+1=main.c
+t1=1
+Count=1
+
+[fileformats]
+forcecoff=0
+[main.c]
+Type=4
+
+[defines]
+buildcount=8
+[Units]
+Count=1
+1=main (main)
