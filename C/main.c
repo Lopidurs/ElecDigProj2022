@@ -95,7 +95,7 @@ void main()
    long duration;
    int16 val_mesuree;
    int val_max = 120;
-   int val_min = 60;
+   int val_min = 0;
    
    while(TRUE)
    {
